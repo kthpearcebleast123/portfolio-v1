@@ -11,7 +11,7 @@ body {
   letter-spacing: 0.03em;
 }
 a {
-  color: #7447ae;
+  color: white;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -35,8 +35,8 @@ ul li {
 img {
   max-width: 100%;
 }
-.purple {
-  color: #7447ae;
+.color-change {
+  color: rgb(7,6,24) linear-gradient(90deg, rgba(7,6,24,1) 0%, rgba(32,7,12,0.9920343137254902) 49%, rgba(0,15,11,1) 100%);
 }
 .pink {
   color: #ff2a75;
@@ -47,7 +47,7 @@ img {
 
 /* Hero Section */
 header.hero {
-  background: url(../assets/hero-bg.jpg) no-repeat center center fixed;
+  background: url(../assets/off.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -143,7 +143,7 @@ h1.heading:after {
   width: 100px;
 }
 h1.heading.purple:after {
-  background-color: #7447ae;
+  background-color: #1f0804;
 }
 h1.heading.pink:after {
   background-color: #ff2a75;
@@ -178,7 +178,7 @@ h1.heading.pink:after {
   margin-bottom: 2em;
 }
 .client-box p.tag {
-  color: #7447ae;
+  color: #83140a;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 1em;
 }
@@ -280,7 +280,7 @@ h1.heading.pink:after {
 
 /* Contact Banner */
 .contact-banner {
-  background: #664fee repeat;
+  background: rgb(7,6,24) linear-gradient(90deg, rgba(7,6,24,1) 0%, rgba(73,7,20,1) 54%, rgba(1,25,18,1) 100%) repeat;
   color: #fff;
   padding: 6em;
 }
@@ -294,14 +294,14 @@ h1.heading.pink:after {
 
 /* Footer */
 .footer {
-  background-color: #37324b;
+  background-color: rgb(50,2,18);
   padding: 5em;
 }
 .footer h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 3em;
-  color: #a3a1ac;
+  color: #aca7a1;
   margin-bottom: 2em;
 }
 .footer h1 span {
@@ -328,7 +328,7 @@ h1.heading.pink:after {
 
 /* Sub-footer */
 .sub-footer {
-  background-color: #322e45;
+  background-color: #420606;
   padding: 2em;
   color: #a3a1ac;
   font-family: "Montserrat", sans-serif;
