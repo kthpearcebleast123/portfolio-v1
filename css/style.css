@@ -176,6 +176,7 @@ h1.heading.pink:after {
 .client-box h3.title {
   color: #4e4c58;
   margin-bottom: 2em;
+  text-align: center;
 }
 .client-box p.tag {
   color: #83140a;
